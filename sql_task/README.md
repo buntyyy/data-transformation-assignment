@@ -3,8 +3,8 @@
 - Loaded two CSVs (products_day1.csv, products_day2.csv) into DataFrames: df1 and df2.
 - Used pandasql to run SQL queries directly on these DataFrames.
 - Compared product_ids using NOT IN and UNION to identify:
-    i) Products in df1 but not in df2 → labeled as "removed".
-    ii) Products in df2 but not in df1 → labeled as "added".
+    1) Products in df1 but not in df2 → labeled as "removed".
+    2) Products in df2 but not in df1 → labeled as "added".
 
 🔹 Task 2: Detect Column-Level Changes
 - Focused on matching product_ids present in both df1 and df2.
